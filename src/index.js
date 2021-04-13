@@ -6,8 +6,6 @@ import { Provider } from 'react-redux';
 import store from './store';
 import './index.css'
 
-console.log(process.env.REACT_APP_BASE_URL);
-
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}><App /></Provider>
