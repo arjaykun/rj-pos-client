@@ -10,7 +10,7 @@ import axios from "axios";
 import { addErrorMessage, addSuccessMessage } from "./messages";
 import { createHeader } from "./helpers";
 
-const base_url = process.env.BASE_URL;
+const base_url = process.env.REACT_APP_BASE_URL;
 
 export const getUsers = url => {
   return async (dispatch, getState) => {

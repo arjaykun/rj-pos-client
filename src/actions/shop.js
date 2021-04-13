@@ -2,7 +2,7 @@ import { GET_SHOP_ITEMS, SHOP_ITEMS_LOADING, GET_ALL_ITEMS } from "./types";
 import axios from "axios";
 import { createHeader } from "./helpers";
 
-const base_url = process.env.BASE_URL;
+const base_url = process.env.REACT_APP_BASE_URL;
 
 export const getShopItems = () => {
   return async (dispatch, getState) => {

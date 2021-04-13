@@ -2,7 +2,7 @@ import { GET_SALES, SALES_LOADING } from "./types";
 import axios from "axios";
 import { createHeader } from "./helpers";
 
-const base_url = process.env.BASE_URL;
+const base_url = process.env.REACT_APP_BASE_URL;
 
 export const getSales = uri => {
   return async (dispatch, getState) => {

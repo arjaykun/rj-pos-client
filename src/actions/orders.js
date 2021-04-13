@@ -8,7 +8,7 @@ import {
 import axios from "axios";
 import { createHeader } from "./helpers";
 
-const base_url = process.env.BASE_URL;
+const base_url = process.env.REACT_APP_BASE_URL;
 
 export const getOrders = uri => {
   return async (dispatch, getState) => {
